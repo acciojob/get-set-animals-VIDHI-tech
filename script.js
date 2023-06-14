@@ -32,12 +32,12 @@ animal.makeSound();           // Output: The animal makes a sound.
 
 const cat = new Cat("Felis catus");
 console.log(cat.species);     // Output: Felis catus
-cat.makeSound();              // Output: The animal makes a sound.
+cat.makeSound();              // Output: The Felis catus makes a sound.
 cat.purr();                   // Output: purr
 
 const dog = new Dog("Canis lupus familiaris");
 console.log(dog.species);     // Output: Canis lupus familiaris
-dog.makeSound();              // Output: The animal makes a sound.
+dog.makeSound();              // Output: The Canis lupus familiaris makes a sound.
 dog.bark();                   // Output: woof
 
 
